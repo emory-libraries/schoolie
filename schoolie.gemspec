@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "A gem to generate sitemaps & meta tags for Samvera repositories"
   spec.homepage = "https://github.com/curationexperts/schoolie"
   spec.license = "Apache-2.0"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = "~> 3.2.2"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency "actionview", "~> 5"
+  spec.add_dependency "actionview", "~> 6.1"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
