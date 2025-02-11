@@ -27,6 +27,6 @@ module SchoolieHelper
   end
 
   def load_map(config)
-    @load_map ||= YAML.safe_load(File.open(config, "r"), [Symbol])
+    @load_map ||= YAML.safe_load(File.open(config, "r"))
   end
 end
